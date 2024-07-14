@@ -1,0 +1,24 @@
+@media (width < 600px) {
+
+    .logincontent,
+    .registercontent {
+        display: flex;
+        flex-direction: column;
+        margin-top: 30%;
+    }
+
+    .batmanimage {
+        width: 50%;
+
+    }
+
+    .form {
+        height: fit-content;
+        max-height: 40vh;
+
+    }
+
+    .newuser {
+        margin-bottom: 25px;
+    }
+}
